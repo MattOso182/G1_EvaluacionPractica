@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore | Catálogo y Cotizador</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
+</head>
+<body>
+
+  <header>
+    <h1>TechStore</h1>
+    <p>Equipamiento tecnológico de alto rendimiento</p>
+    <nav>
+      <ul>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#descuentos">Descuentos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="catalogo">
+      <h2>Catálogo de Productos</h2>
+      <p>Revisa los códigos y precios base antes de iniciar el simulador de cotización.</p>
+
+      <div class="catalogo-grid">
+        <article class="tarjeta">
+          <span class="badge">Más vendido</span>
+          <h3>1. Teclado Mecánico RGB</h3>
+          <p>Switches táctiles, retroiluminación personalizable y cable trenzado USB-C.</p>
+          <p class="precio">$80.00</p>
+        </article>
+
+        <article class="tarjeta">
+          <span class="badge">Oferta</span>
+          <h3>2. Mouse Inalámbrico Pro</h3>
+          <p>Sensor óptico de 16,000 DPI, diseño ergonómico y batería de larga duración.</p>
+          <p class="precio">$45.00</p>
+        </article>
+
+        <article class="tarjeta">
+          <span class="badge">Nuevo</span>
+          <h3>3. Audífonos Gamer 7.1</h3>
+          <p>Sonido envolvente, micrófono con cancelación de ruido y almohadillas viscoelásticas.</p>
+          <p class="precio">$60.00</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="descuentos">
+      <h2>Tarifas y Descuentos por Volumen</h2>
+      <table class="tabla-tarifas">
+        <thead>
+          <tr>
+            <th>Cantidad de Unidades</th>
+            <th>Descuento</th>
+            <th>Condición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 a 2 unidades</td>
+            <td>0%</td>
+            <td>Precio unitario estándar</td>
+          </tr>
+          <tr>
+            <td>3 o más unidades</td>
+            <td>15%</td>
+            <td>Aplicado automáticamente en el cotizador</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <p>&copy; 2026 TechStore - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
