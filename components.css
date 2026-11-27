@@ -20,3 +20,19 @@
 .tabla-tarifas tbody tr:nth-child(even) {
   background-color: #f1f6f8;
 }
+
+.badge {
+  background-color: #dff5e8;
+  color: #17663a;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.tarjeta {
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 4px 8px gray;
+}
