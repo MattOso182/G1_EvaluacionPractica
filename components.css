@@ -1,0 +1,65 @@
+.tabla-tarifas {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #fff;
+}
+
+.tabla-tarifas th,
+.tabla-tarifas td {
+  padding: 0.85rem 1rem;
+  border: 1px solid #d8e1e8;
+}
+
+.tabla-tarifas thead th {
+  background-color: #183b4e;
+  color: #fff;
+}
+
+.tabla-tarifas tbody tr:nth-child(even) {
+  background-color: #f1f6f8;
+}
+
+.badge {
+  background-color: #dff5e8;
+  color: #17663a;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.tarjeta {
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 4px 8px gray;
+}
+
+.catalogo-grid {
+  grid-template-columns: 1fr;
+}
+
+.tabla-tarifas th,
+.tabla-tarifas td {
+  padding: 6px;
+  font-size: 14px;
+}
+
+@media (min-width: 600px) {
+  .catalogo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tabla-tarifas th,
+  .tabla-tarifas td {
+    padding: 8px;
+  }
+}
+
+@media (min-width: 900px) {
+  .catalogo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
